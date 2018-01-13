@@ -151,5 +151,130 @@ public class Ex_1_34 {
 //		System.out.println("Day of the week is "+day);
 		
 //		ex22
+//		System.out.print("Enter a point with two coordinates : ");
+//		int a,b;
+//		a = in.nextInt();
+//		b = in.nextInt();
+//		double distance = Math.pow((a*a+b*b), 0.5);
+//		if(distance < 10){
+//			System.out.println("point ("+a+","+b+") is in the circle");
+//		}else{
+//			System.out.println("point ("+a+","+b+") is in not the circle");
+//		}
+		
+//		ex23
+//		System.out.print("Enter a point with two coordinates : ");
+//		int a,b;
+//		a = in.nextInt();
+//		b = in.nextInt();
+//		if(-5<=a&&a<=5&&-2.5<=b&&b<=2.5){
+//			System.out.println("point ("+a+","+b+") is in the rectangle");
+//		}else{
+//			System.out.println("point ("+a+","+b+") is in not the rectangle");
+//		}
+		
+//		ex24
+//		int t = (int) (Math.random()*13+1);
+//		String card = "";
+//		switch (t) {
+//		case 1:
+//			card = "Ace";
+//			break;
+//		case 2:
+//			card = "2";
+//			break;
+//		case 3:
+//			card = "3";
+//			break;
+//		case 4:
+//			card = "4";
+//			break;
+//		case 5:
+//			card = "5";
+//			break;
+//		case 6:
+//			card = "6";
+//			break;
+//		case 7:
+//			card = "7";
+//			break;
+//		case 8:
+//			card = "8";
+//			break;
+//		case 9:
+//			card = "9";
+//			break;
+//		case 10:
+//			card = "10";
+//			break;
+//		case 11:
+//			card = "Jack";
+//			break;
+//		case 12:
+//			card = "Queen";
+//			break;
+//		case 13:
+//			card = "King";
+//			break;
+//		default:
+//			break;
+//		}
+//		int c = (int) (Math.random()*4);
+//		String color="";
+//		switch (c) {
+//		case 0:
+//			color = "Clubs";
+//			break;
+//		case 1:
+//			color = "Diamonds";
+//			break;
+//		case 2:
+//			color = "Hearts";
+//			break;
+//		case 3:
+//			color = "Spades";
+//			break;
+//		default:
+//			break;
+//		}
+//		System.out.println("The card you picked is "+card+" of "+color);
+		
+//		ex27
+//		double x;
+//		double y;
+//		double a,b;
+//		System.out.println("Enter a point's x- and y- coordinates : ");
+//		a = in.nextDouble();
+//		b = in.nextDouble();
+//		y = -0.5*a+100;
+//		if(a>=0&&a<=200&&b<=y&&b>=0){
+//			System.out.println("the point is in the triangle");
+//		}else{
+//			System.out.println("the point is not in the tiangle");
+//		}
+		
+//		ex28
+//		double x1,x2,y1,y2,h1,h2,w1,w2;
+//		System.out.print("Enter r1's center x-,y-coordinates,width,and height : ");
+//		x1 = in.nextDouble();
+//		y1 = in.nextDouble();
+//		w1 = in.nextDouble();
+//		h1 = in.nextDouble();
+//		System.out.print("Enter r2's center x-,y-coordinates,width,and height : ");
+//		x2= in.nextDouble();
+//		y2 = in.nextDouble();
+//		w2 = in.nextDouble();
+//		h2 = in.nextDouble();
+//		
+//		if(((x1-w1/2)<=(x2-w2/2))&&((x1+w1/2)>=(x2+w2/2))&&((y1-h1/2)<=(y2-h2/2))&&((y1+h1/2)>=(y2+h2/2))){
+//			System.out.println("r2 is inside r1");
+//		}else if(((x1-w1/2)>(x2+w2/2))||((x1+w1/2)<(x2-w2/2))||((y1-h1/2)>(y2+h2/2))||((y1+h1/2)<(y2-h2/2))){
+//			System.out.println("r2 is not overlap r1");
+//		}else{
+//			System.out.println("r2 is overlap r1");
+//		}
+		
+		
+		
 	}
 }
