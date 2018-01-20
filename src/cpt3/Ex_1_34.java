@@ -6,6 +6,17 @@ public class Ex_1_34 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		int[]a={1,1,1,7,4,671};
+		int total = 685;
+		double[]e=new double[6];
+		for (int i = 0; i < e.length; i++) {
+			e[i] = (double)a[i]/total;
+		}
+		double k = 0;
+		for (int i = 0; i < e.length; i++) {
+			k =k+(-e[i]*((double)Math.log(e[i])/Math.log(2)));
+		}
+		System.out.println(k);
 //		ex1
 //		double a,b,c;
 //		System.out.println("enter a,b,c ");
@@ -273,8 +284,8 @@ public class Ex_1_34 {
 //		}else{
 //			System.out.println("r2 is overlap r1");
 //		}
-		
-		
-		
+//		
+//
+	
 	}
 }
